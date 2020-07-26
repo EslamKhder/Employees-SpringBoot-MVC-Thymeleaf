@@ -1,4 +1,4 @@
-package com.luv2code.springboot.thymeleafdemo.controller;
+package com.springboot.thymeleafdemo.controller;
 
 import java.util.List;
 
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.luv2code.springboot.thymeleafdemo.entity.Employee;
-import com.luv2code.springboot.thymeleafdemo.service.EmployeeService;
+import com.springboot.thymeleafdemo.entity.Employee;
+import com.springboot.thymeleafdemo.service.EmployeeService;
 
 @Controller
 @RequestMapping("/employees")
